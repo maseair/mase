@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style-contact-us.css">
+        <script src="script-all.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img src="mase-logo-white.png" alt="">
+                <nav>
+                    <a href="productlist.html">Go back</a>
+                </nav>
+            </div>
+        </header>
+        <div class="blocker">
+        </div>
+        <section>
+            <h1>Connect with Mase</h1>
+            <p>If you're having issues with our products, trying to get an off-sale item, or you're an organization administrator and trying to get FS3 for Education, This form is for you.</p>
+            <section class="formr">
+                <form method="post" action="https://formsubmit.co/thewbruh@gmail.com">
+                    <label for="fn">Full Name</label><br>
+                    <input type="text" name="fn" id="fn"><br>
+                    <label for="e@">Active Email</label><br>
+                    <input type="email" name="e@" id="e@"><br>
+                    <label for="ru-o">Roblox Username, optional</label><br>
+                    <input type="text" name="ru-o" id="ru-o"><br>
+                    <label for="cs">Contact as:</label><br>
+                    <select name="cs" id="cs" onchange="showSelect()">
+                        <option value="none">Choose One</option>
+                        <option value="oa">Organization Administrator, FS3 Edu</option>
+                        <option value="dev">Mase Developer, Special price</option>
+                        <option value="u">User, for issues</option>
+                    </select><br>
+                    <select name="res-oa" id="oa-sub">
+                        <option value="isw">Issues using FS3 for Education</option>
+                        <option value="htb">I want to buy FS3 for Education</option>
+                        <option value="de-edu">Price and details of FS3 for Education just asking</option>
+                    </select>
+                    <select name="res-dev" id="dev-sub">
+                        <option value="csh">I want to get FS3 cashes for special price</option>
+                        <option value="ft">i want to get featured products for special price</option>
+                    </select>
+                    <select name="res-u" id="u-sub">
+                        <option value="is-fs3">I have gameplay issue with FS3</option>
+                        <option value="mod-fs3">I have moderation issue with FS3</option>
+                        <option value="csh-fs3">I have payment or paid items issue with FS3 or Summarized Subjects</option>
+                        <option value="ht-fs3">Tips when playing FS3</option>
+                        <option value="ht">How to use Summarized subjects file?</option>
+                    </select>
+                    <input class="submit" type="submit">
+                </form>
+                <section id="slider" class="section-slider">
+                    <div class="image-slider">
+                        <div class="slide arc">
+                            <img src="slider-img-1.png">
+                        </div>
+                        <div class="slide">
+                            <img src="slider-img-2.png">
+                        </div>
+                        <div class="slide">
+                            <img src="slider-img-3.png">
+                        </div>
+                        
+                        <div class="navigation">
+                            <div class="slider-btn arc"></div>
+                            <div class="slider-btn"></div>
+                            <div class="slider-btn"></div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <footer>
+            <div class="footer-main">
+                <img src="mase-logo-white.png">
+                <div class="footer-products">
+                    <h5>Products</h5>
+                    <a class="a-footer" href="#fs3">FS3</a><br>
+                    <a class="a-footer" href="#fs3p">FS3 PRO</a><br>
+                    <a class="a-footer" href="#obbies">Mase Obbies</a><br>
+                </div>
+                <div class="footer-products">
+                    <h5>For Education</h5>
+                    <a class="a-footer" href="detail-fs3ent.html">FS3 FOR EDUCATION</a><br>
+                    <a class="a-footer" href="#mc3">monstrecat_a350-1000's Summarized Subjects</a><br>
+                </div>
+                <div class="footer-products">
+                    <h5>Other</h5>
+                    <a class="a-footer" href="#about">About us</a><br>
+                    <a class="a-footer" href="contact-us.html">Contact us</a><br>
+                    <a class="a-footer" href="productlist.html">Store</a><br>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

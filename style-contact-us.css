@@ -1,0 +1,167 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+.header {
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px;
+}
+.header img {
+    width: 64px;
+    align-items: start;
+}
+a {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.a-jt {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-left: auto;
+}
+nav {
+    align-items: end;
+}
+/* head */
+.blocker {
+    height: 100px;
+}
+section h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin: 0px;
+}
+section p {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+form {
+    margin: 35px;
+}
+form label {
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+form input {
+    border: none;
+    border-radius: 25px;
+    font-family: "Montserrat";
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+}
+form select {
+    border: none;
+    border-radius: 25px;
+    font-family: "Montserrat";
+    padding: 5px;
+    width: 300px;
+    margin: 10px;
+}
+.submit {
+    background-color: white;
+    border: none;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+    color: black;
+    border: 2px solid white;
+    text-decoration: none;
+}
+.submit:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+}
+.submit:active {
+    background-color: rgb(70, 70, 70);
+}
+#oa-sub, #dev-sub, #u-sub {
+    display: none;
+}
+/* slider section */
+.section-slider {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image-slider {
+    position: relative;
+    width: 640px;
+    height: 426px;
+}
+.slide {
+    width: 100%;
+    position: absolute;
+    clip-path: circle(0% at 0 50%);
+}
+.slide img {
+    width: 95%;
+    border-radius: 25px;
+}
+.navigation {
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.slider-btn {
+    background-color: rgb(151, 151, 151);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.slide.arc {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+.slider-btn.arc {
+    background-color: rgb(38, 70, 83);
+}
+.formr {
+    display: flex;
+}
+/* -------------------- footer section -------------------- */
+
+.footer-main {
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+.footer-products {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+.a-footer {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.footer-main img {
+    width: fit-content;
+    height: 64px;
+    align-items: center;
+    padding: 50px 20px 20px 50px
+}

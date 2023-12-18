@@ -1,0 +1,173 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(243, 243, 243);
+    margin: 0px;
+}
+.header {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px;
+}
+.header img {
+    width: 64px;
+    align-items: start;
+}
+.a-header {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+nav {
+    align-items: end;
+}
+/* -------------------------ov-part------------------------- */
+.br {
+    height: 100px;
+}
+.ov-main {
+    background: rgb(0, 0, 0);
+    margin: 0px 10px 0px 10px;
+    max-width: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 25px;
+    color: white;
+}
+.ov-main img {
+    width: 20%;
+    padding: 25px;
+}
+.ov-texts {
+    margin-bottom: 10px;
+    color: white;
+}
+.ov-texts button{
+    width: 35%;
+    background-color: rgb(68, 68, 68);
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-radius: 5px;
+    height: 10%;
+    margin-top: 5px;
+}
+.ov-texts button:hover {
+    background-color: rgb(39, 39, 39);
+}
+.ov-title {
+    margin: 8px;
+    font-size: 50px;
+}
+.ov-pkg {
+    background: rgb(0, 0, 0);
+    margin: 0px 10px 0px 10px;
+    max-width: 100%;
+    color: white;
+    display: flex;
+    justify-content: start;
+    padding: 25px;
+}
+.ov-content h4 {
+    text-align: center;
+}
+.ov-content {
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.ov-content2 {
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.ov-content2 img{
+    width: 256px;
+}
+.ov-contents {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+    margin: 10px;
+}
+.ov-checkout {
+    background: white;
+    margin: 0px 10px 0px 10px;
+    padding: 25px;
+}
+.ov-checkout form input {
+    margin-top: 10px;
+}
+.ov-checkout-form {
+    display: flex;
+    justify-content: start;
+}
+.submit {
+    background-color: black;
+    border: none;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    width: 35%;
+    color: white;
+    border: 2px solid black;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+.submit:active {
+    background-color: rgb(170, 170, 170);
+}
+.a-devcontact {
+    background-color: white;
+    border: none;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    padding: 10px;
+    width: 35%;
+    color: black;
+    border: 2px solid white;
+    text-decoration: none;
+}
+.a-devcontact:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.a-devcontact:active {
+    background-color: rgb(61, 61, 61);
+}
+/* -------------------- footer section -------------------- */
+
+.footer-main {
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+.footer-products {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+.a-footer {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.footer-main img {
+    width: fit-content;
+    height: 64px;
+    align-items: center;
+    padding: 50px 20px 20px 50px
+}

@@ -1,0 +1,198 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(243, 243, 243);
+    margin: 0px;
+}
+.header {
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px;
+}
+.header img {
+    width: 64px;
+    align-items: start;
+}
+a {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.a-jt {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-left: auto;
+}
+nav {
+    align-items: end;
+}
+img {
+    width: 100%;
+    padding: 0px
+}
+.jumbotron-all1 {
+    background-image: url(fs3pro-banner.jpeg);
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+}
+.jumbotron-all2 {
+    background-image: url(fs3ent.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+}
+.jumbotron-all3 {
+    background-image: url(mc350mockup.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    height: 700px;
+}
+.jumbotron-texts {
+    color: white;
+    text-align: start;
+    margin: 200px 0px 150px 0px;
+}
+.jumbotron-texts h1 {
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+.jumbotron-texts h3 {
+    margin-left: 6px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.jumbotron-textstype2 {
+    color: white;
+    text-align: center;
+}
+.jumbotron-textstype2 h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.jumbotron-textstype2 h3 {
+    margin-left: 6px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.product-container {
+    width: 75%;
+    display: flex;
+    align-items: start;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(95, 95, 95);
+    border-radius: 25px;
+    margin-top: 50px;
+}
+.product-container img {
+    width: 150px;
+    display: flex;
+    padding: 25px;
+    border-radius: 25px;
+}
+.buy-cash {
+    display: flex;
+    justify-content: start;
+}
+.bc-header {
+    text-align: center;
+}
+.bc-sec {
+    margin: 25px;
+    padding: 5px;
+    max-width: 20%;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(95, 95, 95);
+}
+.bc-secs {
+    margin: 25px;
+    padding: 5px;
+    max-width: 20%;
+    height: 500px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgb(95, 95, 95);
+}
+.bc-secs img {
+    max-width: 90%;
+}
+.bc-disc1 {
+    background: rgb(133,73,0);
+    background: linear-gradient(90deg, rgba(133,73,0,1) 0%, rgba(166,156,144,1) 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 1px;
+}
+.bc-disc2 {
+    background: rgb(218,218,218);
+    background: linear-gradient(90deg, rgba(218,218,218,1) 0%, rgba(111,111,111,1) 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 1px;
+}
+.bc-disc3 {
+    background: rgb(242,191,0);
+    background: linear-gradient(90deg, rgba(242,191,0,1) 0%, rgba(182,140,0,1) 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 1px;
+}
+.bc-disc4 {
+    background: rgb(0,255,252);
+    background: linear-gradient(90deg, rgba(0,255,252,1) 0%, rgba(7,0,255,1) 50%, rgba(227,0,255,1) 100%);
+    border-radius: 20px;
+    color: white;
+    padding: 1px;
+}
+.bc-btns {
+    background-color: rgb(100, 100, 100);
+    font-size: larger;
+    border-radius: 25px;
+    width: 75px;
+    padding: 10px;
+    font-family: "Montserrat";
+    border: none;
+}
+.bc-btns:hover {
+    background-color: rgb(70, 70, 70);
+}
+/* -------------------- footer section -------------------- */
+
+.footer-main {
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+.footer-products {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+.a-footer {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.footer-main img {
+    width: fit-content;
+    height: 64px;
+    align-items: center;
+    padding: 50px 20px 20px 50px
+}

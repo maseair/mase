@@ -1,0 +1,128 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+.header {
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(8px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 10px;
+}
+.header img {
+    width: 64px;
+    align-items: start;
+}
+a {
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.a-jt {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-left: auto;
+}
+nav {
+    align-items: end;
+}
+/* main section */
+.jb-img {
+    width: 100%;
+}
+.jb-title {
+    font-size: 50px;
+    margin: 16px;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mobility-section {
+    margin: 16px;
+    display: flex;
+}
+.img-icao{
+    width: 50%;
+    padding-left: 50px;
+}
+.mob-desc h1 {
+    background: rgb(0,252,255);
+    background: linear-gradient(90deg, rgba(0,252,255,1) 0%, rgba(51,45,253,1) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+.mob-desc p {
+    color: white;
+    font-size: 20px;
+    width: 500px;
+}
+.img-liftoff {
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+}
+.contact-us {
+    text-align: center;
+}
+.contact-us h1 {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+}
+.contact-us h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.contact-us a {
+    background-color: white;
+    border: none;
+    font-family: "Montserrat";
+    border-radius: 25px;
+    padding: 10px;
+    width: 35%;
+    color: black;
+    border: 2px solid white;
+    text-decoration: none;
+}
+.contact-us a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.contact-us a:active {
+    background-color: rgb(61, 61, 61);
+}
+/* -------------------- footer section -------------------- */
+
+.footer-main {
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+.footer-products {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+.a-footer {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.footer-main img {
+    width: fit-content;
+    height: 64px;
+    align-items: center;
+    padding: 50px 20px 20px 50px
+}
